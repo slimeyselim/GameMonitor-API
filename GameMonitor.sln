@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMonitor", "GameMonitor\GameMonitor.csproj", "{FC90EB22-39E0-4728-8920-F1606881ACD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMonitor.Web", "GameMonitor\GameMonitor.Web.csproj", "{FC90EB22-39E0-4728-8920-F1606881ACD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMonitor.Data", "GameMonitor.Data\GameMonitor.Data.csproj", "{8F52D530-B47E-4A99-B2A3-0767E3CAEFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMonitor.Services", "GameMonitor.Services\GameMonitor.Services.csproj", "{E140E81C-EF6A-4524-910E-EA847C7735E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FC90EB22-39E0-4728-8920-F1606881ACD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC90EB22-39E0-4728-8920-F1606881ACD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC90EB22-39E0-4728-8920-F1606881ACD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F52D530-B47E-4A99-B2A3-0767E3CAEFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F52D530-B47E-4A99-B2A3-0767E3CAEFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F52D530-B47E-4A99-B2A3-0767E3CAEFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F52D530-B47E-4A99-B2A3-0767E3CAEFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E140E81C-EF6A-4524-910E-EA847C7735E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E140E81C-EF6A-4524-910E-EA847C7735E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E140E81C-EF6A-4524-910E-EA847C7735E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E140E81C-EF6A-4524-910E-EA847C7735E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
